@@ -81,7 +81,7 @@ const participationRows: ParticipationCard[][] = [
 export const CommunityParticipationSection = (): JSX.Element => {
   return (
     <section
-      className="flex w-full flex-col gap-14 border-y border-[#4a2e24] bg-[#f7f1e8] px-6 py-16 sm:px-10 md:px-20 md:py-[104px]"
+      className="flex w-full flex-col gap-14 bg-[#f7f1e8] px-6 pb-16 sm:px-10 md:px-20 md:pb-[104px]"
       aria-label="Community participation"
       id="get-involved"
     >

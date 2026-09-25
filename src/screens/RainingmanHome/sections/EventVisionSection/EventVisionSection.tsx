@@ -7,7 +7,7 @@ const visionParagraphs = [
 
 export const EventVisionSection = (): JSX.Element => {
   return (
-    <section className="self-stretch w-full border-y border-[#333c47] bg-[#f7f1e8] px-6 py-20 sm:px-10 lg:min-h-[974px] lg:px-12 lg:py-24">
+    <section className="self-stretch w-full bg-[#f7f1e8] px-6 py-20 sm:px-10 lg:min-h-[974px] lg:px-12 lg:py-24">
       <div className="mx-auto flex w-full max-w-[1097px] flex-col items-center justify-center gap-16 lg:min-h-[780px]">
         <h2 id="what-were-building" className="m-0 text-center [font-family:'Fraunces',Helvetica] text-[40px] font-semibold leading-[1.1] tracking-[0] text-[#6b5a4f] sm:text-[48px] lg:text-[56px] lg:leading-[61.6px]">
           What We&apos;re Building
