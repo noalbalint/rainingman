@@ -23,7 +23,7 @@ const participationRows: ParticipationCard[][] = [
         "General expression of interest in the Rainingman concept and 2026 event.",
         "We will use this list to estimate attendance numbers when selecting a venue, and also to updates such as:",
         "• Venue Selected and Date Confirmed",
-        "• Applications for Volunteers / Camps / Art",
+        "• Applications for Volunteers / Camps / Art Projects",
         "• Community Callouts / Requests For Support",
       ],
       backgroundClass: "bg-[#924344]",
@@ -43,17 +43,6 @@ const participationRows: ParticipationCard[][] = [
       isAvailable: true,
     },
     {
-      title: "Not Listed / Do-ocracy",
-      description: [
-        "We're always learning! If something could be better, tell us how you'd like to fix it.",
-      ],
-      backgroundClass: "bg-[#439286]",
-      actionLabel: "SEND A NOTE",
-      isAvailable: true,
-    },
-  ],
-  [
-    {
       title: "Volunteers",
       description: [
         "Are you a human with brain, body, and limited planning capacity? Join the Big Camp, and we will find a spot for you!",
@@ -62,23 +51,26 @@ const participationRows: ParticipationCard[][] = [
       actionLabel: "COMING SOON",
       isAvailable: false,
     },
+  ],
+  [
+   
     {
-      title: "Theme Camps",
+      title: "Camps / Art",
       description: [
-        "Theme Camps are the core of any burn, from sound stage to sanctuary, SOP tent to tea house.",
+        "Theme Camps, Sound Camps, Art Projects, Mutant Vehicles, and more. Please note: grants may or may not be available for this Year Zero event.",
       ],
       backgroundClass: "bg-[#2f4a24]",
       actionLabel: "COMING SOON",
       isAvailable: false,
     },
     {
-      title: "Art Projects",
+      title: "Not Listed / Do-ocracy",
       description: [
-        "Mutant vehicles, interactive art, sculpture, and more. You got it? We'll display it!",
+        "We're always learning! If something could be better, tell us how you'd like to fix it.",
       ],
-      backgroundClass: "bg-[#4a2424]",
-      actionLabel: "COMING SOON",
-      isAvailable: false,
+      backgroundClass: "bg-[#439286]",
+      actionLabel: "SEND A NOTE",
+      isAvailable: true,
     },
   ],
 ];
@@ -128,25 +120,19 @@ export const CommunityParticipationSection = (): JSX.Element => {
                     </p>
                   ))}
                 </div>
-                <Button
-                  type="button"
-                  disabled={!item.isAvailable}
-                  className={`mt-auto flex h-auto w-full items-center justify-center gap-2 rounded-md px-5 py-3 [font-family:'DM_Sans',Helvetica] text-[10px] font-bold leading-none text-[#2f241f] shadow-none hover:bg-[#d9a23a] md:text-sm ${
-                    item.isAvailable
-                      ? "border border-[#4a2e24] bg-[#d9a23a]"
-                      : "bg-[#d9a23a7a] opacity-100 hover:bg-[#d9a23a7a]"
-                  }`}
-                >
-                  <span>{item.actionLabel}</span>
-                  {item.isAvailable && (
-                    <img
-                      className="h-4 w-4"
-                      alt=""
-                      aria-hidden="true"
-                      src="/frame.svg"
-                    />
-                  )}
-                </Button>
+                <div className="mt-auto">
+                  <Button
+                    type="button"
+                    disabled={!item.isAvailable}
+                    className={`mt-6 flex h-auto w-full items-center justify-center gap-2 rounded-md px-5 py-3 [font-family:'DM_Sans',Helvetica] text-[10px] font-bold leading-none text-[#2f241f] shadow-none hover:bg-[#d9a23a] md:text-sm ${
+                      item.isAvailable
+                        ? "border border-[#4a2e24] bg-[#d9a23a]"
+                        : "bg-[#d9a23a7a] opacity-100 hover:bg-[#d9a23a7a]"
+                    }`}
+                  >
+                    <span>{item.actionLabel}</span>
+                  </Button>
+                </div>
               </CardContent>
             </Card>
           ))}
