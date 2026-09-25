@@ -28,6 +28,7 @@ const participationRows: ParticipationCard[][] = [
       ],
       backgroundClass: "bg-[#924344]",
       actionLabel: "SUBSCRIBE FOR UPDATES",
+      href: "https://tally.so/r/jaN52a",
       isAvailable: true,
       isMailingList: true,
     },
@@ -36,10 +37,11 @@ const participationRows: ParticipationCard[][] = [
     {
       title: "Leads / Producers",
       description: [
-        "Do you have (or want) experience organising events? We would love your help!",
+        "Do you have (or want) experience organizing events? We would love your help!",
       ],
       backgroundClass: "bg-[#435892]",
       actionLabel: "APPLY AS LEAD",
+      href: "https://tally.so/r/ODvdK7",
       isAvailable: true,
     },
     {
@@ -69,6 +71,7 @@ const participationRows: ParticipationCard[][] = [
         "We're always learning! If something could be better, tell us how you'd like to fix it.",
       ],
       backgroundClass: "bg-[#439286]",
+      href: "https://tally.so/r/rj7GQl",
       actionLabel: "SEND A NOTE",
       isAvailable: true,
     },
@@ -130,7 +133,9 @@ export const CommunityParticipationSection = (): JSX.Element => {
                         : "bg-[#d9a23a7a] opacity-100 hover:bg-[#d9a23a7a]"
                     }`}
                   >
-                    <span>{item.actionLabel}</span>
+                    <a href={item.href} target="_blank">
+                      {item.actionLabel}
+                    </a>
                   </Button>
                 </div>
               </CardContent>
