@@ -88,6 +88,7 @@ export const CommunityParticipationSection = (): JSX.Element => {
     <section
       className="flex w-full flex-col gap-14 border-y border-[#4a2e24] bg-[#f7f1e8] px-6 py-16 sm:px-10 md:px-20 md:py-[104px]"
       aria-label="Community participation"
+      id="get-involved"
     >
       {participationRows.map((row, rowIndex) => (
         <div

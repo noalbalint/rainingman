@@ -3,8 +3,6 @@ import { useState } from "react";
 
 import { Button } from "../../../../components/ui/button";
 
-const navigationItems = ["VISION", "PRINCIPLES", "JOIN"];
-
 const eventDetails = [
   {
     icon: MapPinIcon,
@@ -41,19 +39,33 @@ export const EventIntroductionSection = (): JSX.Element => {
         />
         <nav aria-label="Main navigation">
           <ul className="flex items-center gap-4 sm:gap-6">
-            {navigationItems.map((item) => (
-              <li key={item}>
-                <Button
-                  type="button"
-                  variant="ghost"
-                  aria-pressed={selectedNavigationItem === item}
-                  onClick={() => setSelectedNavigationItem(item)}
-                  className="h-auto rounded-none p-0 [font-family:'DM_Sans',Helvetica] text-sm font-semibold leading-normal text-[#fff7ea] hover:bg-transparent hover:text-[#fff7ea] focus-visible:ring-[#fff7ea]"
-                >
-                  {item}
-                </Button>
-              </li>
-            ))}
+            <li>
+              <Button
+                type="button"
+                variant="ghost"
+                className="h-auto rounded-none p-0 [font-family:'DM_Sans',Helvetica] text-sm font-semibold leading-normal text-[#fff7ea] hover:bg-transparent hover:text-[#fff7ea] focus-visible:ring-[#fff7ea]"
+              >
+                <a href="#what-were-building">VISION</a>
+              </Button>
+            </li>
+            <li>
+              <Button
+                type="button"
+                variant="ghost"
+                className="h-auto rounded-none p-0 [font-family:'DM_Sans',Helvetica] text-sm font-semibold leading-normal text-[#fff7ea] hover:bg-transparent hover:text-[#fff7ea] focus-visible:ring-[#fff7ea]"
+              >
+                <a target="_blank" href="https://burningman.org/about-us/10-principles/">PRINCIPLES</a>
+              </Button>
+            </li>
+            <li>
+              <Button
+                type="button"
+                variant="ghost"
+                className="h-auto rounded-none p-0 [font-family:'DM_Sans',Helvetica] text-sm font-semibold leading-normal text-[#fff7ea] hover:bg-transparent hover:text-[#fff7ea] focus-visible:ring-[#fff7ea]"
+              >
+                <a href="#get-involved">JOIN</a>
+              </Button>
+            </li>
           </ul>
         </nav>
       </header>
@@ -64,16 +76,16 @@ export const EventIntroductionSection = (): JSX.Element => {
         >
           Rainingman
         </h1>
-        <p className="[font-family:'DM_Sans',Helvetica] text-xl font-normal leading-8 text-neutral-100 sm:text-2xl sm:leading-9">
-          A new not-for-profit community event for <br />
-          Vancouver Island inspired by Burning Man <br />
-          principles where we can <em>actually</em> burn.
+        <p className="[font-family:'DM_Sans',Helvetica] text-xl max-w-lg font-normal leading-8 text-neutral-100 sm:text-2xl sm:leading-9">
+          A new not-for-profit community event for
+          Vancouver Island inspired by Burning Man
+          principles where we can <strong><em>actually</em></strong> burn.
         </p>
         <Button
           type="button"
           className="h-auto rounded-md border border-solid border-[#2f241f] bg-[#d9a23a] px-8 py-4 [font-family:'DM_Sans',Helvetica] text-base font-bold leading-normal text-[#2f241f] hover:bg-[#d9a23a]/90 focus-visible:ring-[#fff7ea]"
         >
-          GET INVOLVED
+          <a href="#get-involved">Get Involved</a>
         </Button>
       </div>
       <dl className="flex w-full flex-col items-start justify-center gap-2.5">
