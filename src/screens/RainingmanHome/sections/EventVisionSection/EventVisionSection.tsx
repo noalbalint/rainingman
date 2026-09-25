@@ -2,7 +2,7 @@ import { Button } from "../../../../components/ui/button";
 
 const visionParagraphs = [
   "Under fir canopies and tent canopies, in gumboots and birthday suits, we celebrate the moistness of Vancouver Island with fire, community, and whimsy.",
-  "Rainingman is a response to the over-demand of Otherworld in recent years, serving Vancouver Island's extensive burner community with a new, complementary event to allow more people access to this rich cultural experiment.",
+  "Raining Man is a response to the over-demand of Otherworld in recent years, serving Vancouver Island's extensive burner community with a new, complementary event to allow more people access to this rich cultural experiment.",
 ];
 
 export const EventVisionSection = (): JSX.Element => {

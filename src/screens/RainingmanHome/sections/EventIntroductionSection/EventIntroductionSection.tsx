@@ -74,7 +74,7 @@ export const EventIntroductionSection = (): JSX.Element => {
           id="event-introduction-title"
           className="[font-family:'Fraunces',Helvetica] text-6xl font-bold leading-[1.1] text-[#fff7ea] sm:text-7xl lg:text-8xl lg:leading-[86.4px]"
         >
-          Rainingman
+          Raining Man
         </h1>
         <p className="[font-family:'DM_Sans',Helvetica] text-xl max-w-lg font-normal leading-8 text-neutral-100 sm:text-2xl sm:leading-9">
           A new not-for-profit community event for
