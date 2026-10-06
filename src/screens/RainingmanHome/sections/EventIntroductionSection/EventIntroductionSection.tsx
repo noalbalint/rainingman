@@ -26,7 +26,7 @@ export const EventIntroductionSection = (): JSX.Element => {
       style=
         {{
           backgroundImage:
-            "linear-gradient(rgba(74,46,36,0.45), rgba(74,46,36,0.45)), url('/main_image.jpeg')",
+            "linear-gradient(rgba(74,46,36,0.45), rgba(74,46,36,0.45)), url('/coverphoto.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
