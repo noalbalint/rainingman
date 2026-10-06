@@ -18,13 +18,13 @@ type ParticipationCard = {
 const participationRows: ParticipationCard[][] = [
   [
     {
-      title: "Join the Mailing List",
+      title: "Join the Interest List",
       description: [
         "General expression of interest in the Rainingman concept and 2026 event.",
-        "We will use this list to estimate attendance numbers when selecting a venue, and also to updates such as:",
+        "We will use this list to estimate attendance numbers when selecting a venue, and also to disseminate updates such as:",
         "• Venue Selected and Date Confirmed",
-        "• Applications for Volunteers / Camps / Art Projects",
         "• Community Callouts / Requests For Support",
+        "• New Forms 😛",
       ],
       backgroundClass: "bg-[#924344]",
       actionLabel: "SUBSCRIBE FOR UPDATES",
@@ -35,22 +35,22 @@ const participationRows: ParticipationCard[][] = [
   ],
   [
     {
-      title: "Leads / Producers",
+      title: "Producers",
       description: [
-        "Do you have (or want) experience organizing events? We would love your help!",
+        "Do you have (or want) experience organizing events? Join BaseCamp.",
       ],
       backgroundClass: "bg-[#435892]",
-      actionLabel: "APPLY AS LEAD",
+      actionLabel: "JOIN PRODUCERS",
       href: "https://tally.so/r/ODvdK7",
       isAvailable: true,
     },
     {
       title: "Volunteers",
       description: [
-        "Are you a human with brain, body, and limited planning capacity? Join the Big Camp, and we will find a spot for you!",
+        "Are you a human with brain, body, and limited planning capacity? Join BigCamp, and we'll find a spot for you.",
       ],
-      backgroundClass: "bg-[#427792]",
-      actionLabel: "COMING SOON",
+      backgroundClass: "bg-[#429792]",
+      actionLabel: "JOIN VOLUNTEERS",
       isAvailable: false,
     },
   ],
@@ -59,20 +59,20 @@ const participationRows: ParticipationCard[][] = [
     {
       title: "Camps / Art",
       description: [
-        "Theme Camps, Sound Camps, Art Projects, Mutant Vehicles, and more. Please note: grants may or may not be available for this Year Zero event.",
+        "Theme Camps, Sound Camps, Art Projects, Mutant Vehicles, etc. We love it all.",
       ],
       backgroundClass: "bg-[#2f4a24]",
-      actionLabel: "COMING SOON",
+      actionLabel: "OFFER ART",
       isAvailable: false,
     },
     {
-      title: "Not Listed / Do-ocracy",
+      title: "Build Crew",
       description: [
-        "We're always learning! If something could be better, tell us how you'd like to fix it.",
+        "The core pre-production crew that builds the festival site. No organizing required.",
       ],
-      backgroundClass: "bg-[#439286]",
+      backgroundClass: "bg-[#832019]",
       href: "https://tally.so/r/rj7GQl",
-      actionLabel: "SEND A NOTE",
+      actionLabel: "JOIN BUILDERS",
       isAvailable: true,
     },
   ],

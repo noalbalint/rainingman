@@ -1,6 +1,7 @@
 const footerMessages = [
-  "Rainingman 2027 · Built with love, rain, and radical participation.",
-  "Organised by Village Builders NRG",
+  "Raining Man 2026",
+  "rainingman.fest@gmail.com",
+  "Village Builders NRG",
 ];
 
 export const SiteFooterSection = (): JSX.Element => {

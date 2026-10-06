@@ -7,7 +7,7 @@ const visionParagraphs = [
 
 export const EventVisionSection = (): JSX.Element => {
   return (
-    <section className="self-stretch w-full bg-[#f7f1e8] px-6 py-20 sm:px-10 lg:min-h-[974px] lg:px-12 lg:py-24">
+    <section className="self-stretch w-full bg-[#f7f1e8] px-6 pt-20 pb-12 sm:px-10 lg:min-h-[974px] lg:px-12 lg:py-24">
       <div className="mx-auto flex w-full max-w-[1097px] flex-col items-center justify-center gap-16 lg:min-h-[780px]">
         <h2 id="what-were-building" className="m-0 text-center [font-family:'Fraunces',Helvetica] text-[40px] font-semibold leading-[1.1] tracking-[0] text-[#6b5a4f] sm:text-[48px] lg:text-[56px] lg:leading-[61.6px]">
           What We&apos;re Building
@@ -36,10 +36,14 @@ export const EventVisionSection = (): JSX.Element => {
         >
           <a target="_blank" href="https://burningman.org/about-us/10-principles/">THE 10 PRINCIPLES OF BURNING MAN</a>
         </Button>
-        <p className="m-0 w-full max-w-[1097px] text-center [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-left lg:text-2xl lg:leading-[40.8px]">
-          Below you can find a few options for getting involved and supporting
-          this new project. More soon :)
-        </p>
+        <div>
+          <p className="m-0 w-full max-w-[1097px] text-center [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
+            Be part of Raining Man: Year Zero through the volunteeripation forms below.
+          </p>
+          <p className="m-0 pt-6 w-full max-w-[1097px] text-center [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
+            "Rain or shine, it will be divine"
+          </p>
+        </div>
       </div>
     </section>
   );
