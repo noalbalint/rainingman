@@ -34,19 +34,21 @@ export const EventVisionSection = (): JSX.Element => {
             </p>
           </div>
         </div>
-        <Button
-          type="button"
-          className="h-auto min-h-[79px] w-full max-w-[503px] whitespace-normal rounded-md border border-[#2f241f] bg-[#d9a23a] px-8 py-[11px] [font-family:'DM_Sans',Helvetica] text-xl font-bold leading-normal text-[#2f241f] shadow-none hover:bg-[#d9a23a] focus-visible:ring-[#2f241f] lg:text-2xl"
-        >
-          <a target="_blank" href="https://burningman.org/about-us/10-principles/">THE 10 PRINCIPLES OF BURNING MAN</a>
-        </Button>
         <div>
-          <p className="m-0 pt-3 w-full max-w-[1097px] text-center [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
-            "Rain or shine, it <i>will</i> be divine!"
-          </p>
-          <p className="m-0 pt-0 w-full max-w-[1097px] text-center [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
-            - Santa Claus
-          </p>
+          <Button
+            type="button"
+            className="h-auto min-h-[79px] w-full max-w-[503px] whitespace-normal rounded-md border border-[#2f241f] bg-[#d9a23a] px-8 py-[11px] [font-family:'DM_Sans',Helvetica] text-xl font-bold leading-normal text-[#2f241f] shadow-none hover:bg-[#d9a23a] focus-visible:ring-[#2f241f] lg:text-2xl"
+          >
+            <a target="_blank" href="https://burningman.org/about-us/10-principles/">THE 10 PRINCIPLES OF BURNING MAN</a>
+          </Button>
+          <div>
+            <p className="m-0 pt-8 w-full max-w-[1097px] text-center [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
+              "Rain or shine, it <i>will</i> be divine!"
+            </p>
+            <p className="m-0 w-full max-w-[1097px] text-center [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
+              - Santa Claus
+            </p>
+          </div>
         </div>
       </div>
     </section>
