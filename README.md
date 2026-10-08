@@ -29,3 +29,7 @@ If you are satisfied with the result, you can finally build the project for rele
 ```
 npm run build
 ```
+
+### Notes
+
+Email forwarding set up with https://app.improvmx.com/ via rainingman.fest@gmail.com
