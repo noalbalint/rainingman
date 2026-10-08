@@ -1,6 +1,6 @@
 const footerMessages = [
   "Raining Man 2026",
-  "rainingman.fest@gmail.com",
+  "basecamp@rainingman.ca",
   "Village Builders NRG",
 ];
 
