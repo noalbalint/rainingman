@@ -10,7 +10,7 @@ export const EventVisionSection = (): JSX.Element => {
         <div className="flex w-full max-w-[1016px] flex-col gap-[66px]">
           <div className="flex flex-col gap-5">
             <p className="m-0 [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
-              As the popularity of Otherworld increased, and tickets became harder to secure, 
+              As the popularity of Otherworld increased, tickets became harder to secure, and
               new associate events were requested to relieve the over-demand. Raining Man is our answer.
             </p>
             <p className="m-0 [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
