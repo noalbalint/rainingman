@@ -1,18 +1,6 @@
-import { CalendarDaysIcon, MapPinIcon } from "lucide-react";
 import { useState } from "react";
 
 import { Button } from "../../../../components/ui/button";
-
-const eventDetails = [
-  {
-    icon: MapPinIcon,
-    label: "Southern Vancouver Island",
-  },
-  {
-    icon: CalendarDaysIcon,
-    label: "Spring 2027",
-  },
-];
 
 export const EventIntroductionSection = (): JSX.Element => {
   const [selectedNavigationItem, setSelectedNavigationItem] = useState<
@@ -22,15 +10,14 @@ export const EventIntroductionSection = (): JSX.Element => {
   return (
     <section
       aria-labelledby="event-introduction-title"
-      className= "flex min-h-[760px] w-full flex-col justify-between px-6 pb-12 pt-8 sm:px-10 sm:pb-16 lg:px-20 lg:pb-20"
-      style=
-        {{
-          backgroundImage:
-            "linear-gradient(rgba(74,46,36,0.45), rgba(74,46,36,0.45)), url('/coverphoto.jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-     >
+      className="flex min-h-[760px] w-full flex-col justify-between px-6 pb-12 pt-8 sm:px-10 sm:pb-16 lg:px-20 lg:pb-20"
+      style={{
+        backgroundImage:
+          "linear-gradient(rgba(74,46,36,0.45), rgba(74,46,36,0.45)), url('/coverphoto.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <header className="flex w-full items-center justify-between">
         <img
           className="h-[50px] w-[74px] object-cover"
@@ -69,6 +56,7 @@ export const EventIntroductionSection = (): JSX.Element => {
           </ul>
         </nav>
       </header>
+
       <div className="flex w-full max-w-[952px] flex-col items-start gap-6">
         <h1
           id="event-introduction-title"
@@ -88,22 +76,26 @@ export const EventIntroductionSection = (): JSX.Element => {
           <a href="#get-involved">Get Involved</a>
         </Button>
       </div>
+
       <dl className="flex w-full flex-col items-start justify-center gap-2.5">
-        {eventDetails.map(({ icon: Icon, label }) => (
-          <div key={label} className="flex h-14 items-center gap-2">
-            <dt className="sr-only">
-              {label === "Spring 2027" ? "Date" : "Location"}
-            </dt>
-            <Icon
-              aria-hidden="true"
-              className="h-[30px] w-[30px] shrink-0 fill-[#d9a23a] text-[#d9a23a]"
-              strokeWidth={1.5}
-            />
-            <dd className="[font-family:'DM_Sans',Helvetica] text-xl font-normal leading-normal text-white">
-              {label}
-            </dd>
-          </div>
-        ))}
+        <div className="flex h-14 items-center gap-2">
+          <dt className="sr-only">Location</dt>
+          <span aria-hidden="true" className="text-[30px] leading-none">
+            📍
+          </span>
+          <dd className="[font-family:'DM_Sans',Helvetica] text-xl font-normal leading-normal text-white">
+            Southern Vancouver Island
+          </dd>
+        </div>
+        <div className="flex h-14 items-center gap-2">
+          <dt className="sr-only">Date</dt>
+          <span aria-hidden="true" className="text-[30px] leading-none">
+            ⏱️
+          </span>
+          <dd className="[font-family:'DM_Sans',Helvetica] text-xl font-normal leading-normal text-white">
+            Spring 2027
+          </dd>
+        </div>
       </dl>
     </section>
   );
