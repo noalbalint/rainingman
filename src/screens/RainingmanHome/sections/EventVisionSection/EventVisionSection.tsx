@@ -1,10 +1,5 @@
 import { Button } from "../../../../components/ui/button";
 
-const visionParagraphs = [
-  "Under fir canopies and tent canopies, in gumboots and birthday suits, we celebrate the moistness of Vancouver Island with fire, community, and whimsy.",
-  "Raining Man is a response to the over-demand of Otherworld in recent years, serving Vancouver Island's extensive burner community with a new, complementary event to allow more people access to this rich cultural experiment.",
-];
-
 export const EventVisionSection = (): JSX.Element => {
   return (
     <section className="self-stretch w-full bg-[#f7f1e8] px-6 pt-20 pb-12 sm:px-10 lg:min-h-[974px] lg:px-12 lg:py-24">
@@ -15,18 +10,27 @@ export const EventVisionSection = (): JSX.Element => {
         <div className="flex w-full max-w-[1016px] flex-col gap-[66px]">
           <div className="flex flex-col gap-5">
             <p className="m-0 [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
-              {visionParagraphs[0]}
+              As the popularity of Otherworld increased, and tickets became harder to secure, 
+              new associate events were requested to relieve the over-demand. Raining Man is our answer.
             </p>
             <p className="m-0 [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
-              {visionParagraphs[1]}
+              Under fir canopies and tent canopies, in gumboots and birthday suits, 
+              we celebrate the arrival of spring with art, dance, song, connection, easter eggs, whimsy, and of course, <strong>fire.</strong>
             </p>
             <p className="m-0 [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
-              While we are not yet an official regional partner, we operate in
+              We aspire to provide more and more people access to this rich cultural 
+              experiment and continue to foster Vancouver Island's burner community.
+            </p>
+            <p className="m-0 [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
+              While we are not (yet) an official regional partner, we operate in
               good faith under the Burning Man ethos. Everybody is a
               participant, and nobody is a consumer.{" "}
               <strong className="font-bold">This is </strong>
               <strong className="font-bold italic">not</strong>
               <strong className="font-bold"> a festival.</strong>
+            </p>
+            <p className="m-0 w-full max-w-[1097px] [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
+              Be a founding member of Raining Man: Year Zero via our lovely volunteeripation forms ↓
             </p>
           </div>
         </div>
@@ -37,11 +41,11 @@ export const EventVisionSection = (): JSX.Element => {
           <a target="_blank" href="https://burningman.org/about-us/10-principles/">THE 10 PRINCIPLES OF BURNING MAN</a>
         </Button>
         <div>
-          <p className="m-0 w-full max-w-[1097px] text-center [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
-            Be part of Raining Man: Year Zero through the volunteeripation forms below.
+          <p className="m-0 pt-3 w-full max-w-[1097px] text-center [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
+            "Rain or shine, it <i>will</i> be divine!"
           </p>
-          <p className="m-0 pt-6 w-full max-w-[1097px] text-center [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
-            "Rain or shine, it will be divine"
+          <p className="m-0 pt-0 w-full max-w-[1097px] text-center [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
+            - Santa Claus
           </p>
         </div>
       </div>

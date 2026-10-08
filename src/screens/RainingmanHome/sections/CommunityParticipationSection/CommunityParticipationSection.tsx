@@ -18,13 +18,13 @@ type ParticipationCard = {
 const participationRows: ParticipationCard[][] = [
   [
     {
-      title: "Join the Interest List",
+      title: "Interested Party(goer)",
       description: [
-        "General expression of interest in the Rainingman concept and 2026 event.",
-        "We will use this list to estimate attendance numbers when selecting a venue, and also to disseminate updates such as:",
-        "• Venue Selected and Date Confirmed",
-        "• Community Callouts / Requests For Support",
-        "• New Forms 😛",
+        "General expression of interest in the Raining Man 2026 concept. If this sounds cool to you, register here to let us know 😎",
+        "We will use this list to estimate attendance numbers, keep ourselves motivated, and share updates such as:",
+        "• Venue and Date Confirmation",
+        "• Community Callouts",
+        "• Ticket Drops 🎟️",
       ],
       backgroundClass: "bg-[#924344]",
       actionLabel: "SUBSCRIBE FOR UPDATES",
@@ -45,6 +45,27 @@ const participationRows: ParticipationCard[][] = [
       isAvailable: true,
     },
     {
+      title: "Build Crew",
+      description: [
+        "The core pre-production crew that builds the festival site. No organizing required.",
+      ],
+      backgroundClass: "bg-[#2f4a24]",
+      href: "https://tally.so/r/rj7GQl",
+      actionLabel: "JOIN BUILDERS",
+      isAvailable: true,
+    },
+  ],
+  [
+    {
+      title: "Camps / Art",
+      description: [
+        "Theme Camps, Sound Camps, Art Projects, Mutant Vehicles, etc. We love it all.",
+      ],
+      backgroundClass: "bg-[#832019]",
+      actionLabel: "OFFER ART",
+      isAvailable: false,
+    },
+    {
       title: "Volunteers",
       description: [
         "Are you a human with brain, body, and limited planning capacity? Join BigCamp, and we'll find a spot for you.",
@@ -52,28 +73,6 @@ const participationRows: ParticipationCard[][] = [
       backgroundClass: "bg-[#429792]",
       actionLabel: "JOIN VOLUNTEERS",
       isAvailable: false,
-    },
-  ],
-  [
-   
-    {
-      title: "Camps / Art",
-      description: [
-        "Theme Camps, Sound Camps, Art Projects, Mutant Vehicles, etc. We love it all.",
-      ],
-      backgroundClass: "bg-[#2f4a24]",
-      actionLabel: "OFFER ART",
-      isAvailable: false,
-    },
-    {
-      title: "Build Crew",
-      description: [
-        "The core pre-production crew that builds the festival site. No organizing required.",
-      ],
-      backgroundClass: "bg-[#832019]",
-      href: "https://tally.so/r/rj7GQl",
-      actionLabel: "JOIN BUILDERS",
-      isAvailable: true,
     },
   ],
 ];
