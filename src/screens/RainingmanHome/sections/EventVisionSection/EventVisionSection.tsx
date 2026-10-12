@@ -46,7 +46,7 @@ export const EventVisionSection = (): JSX.Element => {
               "Rain or shine, it <i>will</i> be divine!"
             </p>
             <p className="m-0 w-full max-w-[1097px] text-center [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
-              - Santa Claus
+              - Peter Parkingmaster
             </p>
           </div>
         </div>
