@@ -2,12 +2,12 @@ import { Button } from "../../../../components/ui/button";
 
 export const EventVisionSection = (): JSX.Element => {
   return (
-    <section className="self-stretch w-full bg-[#f7f1e8] px-6 pt-20 pb-12 sm:px-10 lg:min-h-[974px] lg:px-12 lg:py-24">
-      <div className="mx-auto flex w-full max-w-[1097px] flex-col items-center justify-center gap-16 lg:min-h-[780px]">
+    <section className="self-stretch w-full bg-[#f7f1e8] px-6 pt-20 pb-12 sm:px-10 lg:px-12 lg:pt-24 lg:pb-0">
+      <div className="mx-auto flex w-full max-w-[1097px] flex-col items-center justify-center gap-16">
         <h2 id="what-were-building" className="m-0 text-center [font-family:'Fraunces',Helvetica] text-[40px] font-semibold leading-[1.1] tracking-[0] text-[#6b5a4f] sm:text-[48px] lg:text-[56px] lg:leading-[61.6px]">
           What We&apos;re Building
         </h2>
-        <div className="flex w-full max-w-[1016px] flex-col gap-[66px]">
+        <div className="flex w-full max-w-[1048px] flex-col gap-[66px]">
           <div className="flex flex-col gap-5">
             <p className="m-0 [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
               As the popularity of Otherworld increased, tickets became harder to secure, and
@@ -30,26 +30,26 @@ export const EventVisionSection = (): JSX.Element => {
               <strong className="font-bold"> a festival.</strong>
             </p>
             <p className="m-0 w-full max-w-[1097px] [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
-              Be a founding member of Raining Man: Year Zero via our lovely volunteeripation forms ↓
+              Become a founding member of Raining Man's Year Zero via our lovely volunteeripation forms below ↓
             </p>
+            <div>
+              <p className="m-0 pt-8 w-full max-w-[1097px] text-center [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
+                "Rain or shine, it <i>will</i> be divine."
+              </p>
+              <p className="m-0 w-full max-w-[1097px] text-center [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
+                - Medusa
+              </p>
+            </div>
           </div>
         </div>
-        <div>
+        {/* <div>
           <Button
             type="button"
             className="h-auto min-h-[79px] w-full max-w-[503px] whitespace-normal rounded-md border border-[#2f241f] bg-[#d9a23a] px-8 py-[11px] [font-family:'DM_Sans',Helvetica] text-xl font-bold leading-normal text-[#2f241f] shadow-none hover:bg-[#d9a23a] focus-visible:ring-[#2f241f] lg:text-2xl"
           >
             <a target="_blank" href="https://burningman.org/about-us/10-principles/">THE 10 PRINCIPLES OF BURNING MAN</a>
           </Button>
-          <div>
-            <p className="m-0 pt-8 w-full max-w-[1097px] text-center [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
-              "Rain or shine, it <i>will</i> be divine!"
-            </p>
-            <p className="m-0 w-full max-w-[1097px] text-center [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
-              - Peter Parkingmaster
-            </p>
-          </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
