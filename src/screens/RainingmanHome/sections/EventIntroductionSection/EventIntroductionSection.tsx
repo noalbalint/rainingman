@@ -20,9 +20,9 @@ export const EventIntroductionSection = (): JSX.Element => {
       >
         <header className="flex w-full items-center justify-between">
           <img
-            className="h-[50px] w-[74px] object-cover"
-            alt="Rainingman logo"
-            src="logo.png"
+            className="h-14 w-auto sm:h-16 lg:h-20"
+            alt="Raining Man logo"
+            src="/rainingManLogo.png"
           />
           <nav aria-label="Main navigation">
             <ul className="flex items-center gap-4 sm:gap-6">
