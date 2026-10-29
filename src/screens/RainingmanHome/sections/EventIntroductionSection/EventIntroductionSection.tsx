@@ -80,19 +80,19 @@ export const EventIntroductionSection = (): JSX.Element => {
           <div className="flex h-14 items-center gap-2">
             <dt className="sr-only">Location</dt>
             <span aria-hidden="true" className="text-[30px] leading-none">
-              📍
+              🗺️
             </span>
             <dd className="[font-family:'DM_Sans',Helvetica] text-xl font-normal leading-normal text-white">
-              Southern Vancouver Island
+              South Island
             </dd>
           </div>
           <div className="flex h-14 items-center gap-2">
             <dt className="sr-only">Date</dt>
             <span aria-hidden="true" className="text-[30px] leading-none">
-              ⏱️
+              ⏳
             </span>
             <dd className="[font-family:'DM_Sans',Helvetica] text-xl font-normal leading-normal text-white">
-              Spring 2027
+              March 26th - 29th 2027
             </dd>
           </div>
         </dl>

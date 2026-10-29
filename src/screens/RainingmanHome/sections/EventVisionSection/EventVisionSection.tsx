@@ -10,38 +10,49 @@ export const EventVisionSection = (): JSX.Element => {
         <div className="flex w-full max-w-[1048px] flex-col gap-[66px]">
           <div className="flex flex-col gap-5">
             <p className="m-0 [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
-              As the popularity of Otherworld increased, tickets became harder to find, and Kindle Arts
-              requested new associate events to relieve the over-demand. Raining Man is our answer.
-            </p>
-            <p className="m-0 [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
               Under fir canopies and tent canopies, in gumboots and birthday suits, 
               we celebrate the arrival of spring with art, dance, song, connection, easter eggs, whimsy, and of course, <strong>fire.</strong>
+            </p>
+            <p className="m-0 [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
+              As the popularity of Otherworld increased, tickets became harder to find, and Kindle Arts
+              requested new associate events to relieve the over-demand. Raining Man is our answer.
             </p>
             <p className="m-0 [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
               We aspire to provide more and more people access to this rich cultural 
               experiment and continue to foster Vancouver Island's burner community.
             </p>
+            <p className="m-0 w-full max-w-[1097px] [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
+              <strong>TOP TIP:</strong> March 26th - 29th is Easter Weekend of 2027. That means Friday and Monday are statutory holidays. No PTO needed 😎
+            </p>
             <p className="m-0 [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
               While we are not (yet) an official regional partner, we operate in
-              good faith under the Burning Man ethos. Everybody is a
-              participant, and nobody is a consumer.{" "}
+              good faith under the Burning Man ethos.{" "} 
               <strong className="font-bold">This is </strong>
               <strong className="font-bold italic">not</strong>
-              <strong className="font-bold"> a festival.</strong>
+              <strong className="font-bold"> a festival. {" "}</strong>
+              A “festival” is a product: attendees buy it and consume it, and organizers profit from it. 
             </p>
             <p className="m-0 w-full max-w-[1097px] [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
-              Become a founding member of Raining Man's Year Zero via our lovely volunteeripation forms below ↓
+              Here, ticket prices covers production costs <strong>only</strong>: nobody is making <strong>any</strong> money,
+              from the executive producers down to the "vendors" who make you coffee and huevos rancheros at 11am with 4 hours of sleep.
+              Everybody is a participant, and nobody is a consumer.
             </p>
-            <div>
+            <p className="m-0 w-full max-w-[1097px] [font-family:'DM_Sans',Helvetica] text-xl text-center font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
+              There are no sidelines. What will you bring? What is <em>your</em> gift?
+            </p>
+            {/* <div>
               <p className="m-0 pt-8 w-full max-w-[1097px] text-center [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
                 "Rain or shine, it <i>will</i> be divine."
               </p>
               <p className="m-0 w-full max-w-[1097px] text-center [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
                 - Medusa
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
+        <h2 id="what-were-building" className="m-0 pb-10 text-center [font-family:'Fraunces',Helvetica] text-[40px] font-semibold leading-[1.1] tracking-[0] text-[#6b5a4f] sm:text-[48px] lg:text-[56px] lg:leading-[61.6px]">
+          Get Involved
+        </h2>
         {/* <div>
           <Button
             type="button"
