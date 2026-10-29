@@ -35,7 +35,7 @@ export const EventVisionSection = (): JSX.Element => {
               <strong className="font-bold"> a festival. {" "}</strong>
             </p>
             <p className="m-0 w-full max-w-[1097px] [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
-              A “festival” is a product: attendees buy it and consume it, and organizers profit from it. Here, ticket prices covers <strong>production costs only</strong>: nobody is making any money,
+              A “festival” is a product: attendees buy it and consume it, and organizers profit from it. Here, ticket prices  <strong>production costs only</strong>: nobody is making any money,
               from the executive producers down to the "vendors" who make you coffee and huevos rancheros at 11am with 4 hours of sleep.
               Everybody is a participant, and nobody is a consumer.
             </p>
