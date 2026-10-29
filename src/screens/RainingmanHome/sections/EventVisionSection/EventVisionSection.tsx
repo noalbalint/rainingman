@@ -15,25 +15,27 @@ export const EventVisionSection = (): JSX.Element => {
             </p>
             <p className="m-0 [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
               As the popularity of Otherworld increased, tickets became harder to find, and Kindle Arts
-              requested new associate events to relieve the over-demand. Raining Man is our answer.
+              requested new associate events to relieve the over-demand.
             </p>
             <p className="m-0 [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
-              We aspire to provide more and more people access to this rich cultural 
-              experiment and continue to foster Vancouver Island's burner community.
+              Raining Man is our answer.
+            </p>
+            <p className="m-0 [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
+              We aspire to provide more people access to this rich cultural 
+              experiment and to continue fostering Vancouver Island's vibrant burner community (the biggest in Kanata!).
             </p>
             <p className="m-0 w-full max-w-[1097px] [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
-              <strong>TOP TIP:</strong> March 26th - 29th is Easter Weekend of 2027. That means Friday and Monday are statutory holidays. No PTO needed 😎
+              <strong>TOP TIP:</strong> March 26th - 29th is Easter Weekend of 2027. That means Friday and Monday are statutory holidays: no PTO needed 😎
             </p>
             <p className="m-0 [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
               While we are not (yet) an official regional partner, we operate in
-              good faith under the Burning Man ethos.{" "} 
+              good faith under the Burning Man principles and ethos.{" "}
               <strong className="font-bold">This is </strong>
               <strong className="font-bold italic">not</strong>
               <strong className="font-bold"> a festival. {" "}</strong>
-              A “festival” is a product: attendees buy it and consume it, and organizers profit from it. 
             </p>
             <p className="m-0 w-full max-w-[1097px] [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
-              Here, ticket prices covers production costs <strong>only</strong>: nobody is making <strong>any</strong> money,
+              A “festival” is a product: attendees buy it and consume it, and organizers profit from it. Here, ticket prices covers <strong>production costs only</strong>: nobody is making any money,
               from the executive producers down to the "vendors" who make you coffee and huevos rancheros at 11am with 4 hours of sleep.
               Everybody is a participant, and nobody is a consumer.
             </p>
