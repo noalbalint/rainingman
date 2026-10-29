@@ -97,8 +97,8 @@ export const EventIntroductionSection = (): JSX.Element => {
           </div>
         </dl>
       </section>
-      <p className="px-6 pb-4 text-right sm:px-10 lg:px-20">
-        <i>Photo: Oppsi Whimsi Fest 2026</i>
+      <p className="px-6 pb-4 text-right text-white sm:px-10 lg:px-20">
+        Photo: Oppsi Whimsi Fest 2026
       </p>
     </div>
   );
