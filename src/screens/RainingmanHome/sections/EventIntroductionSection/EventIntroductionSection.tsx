@@ -30,16 +30,16 @@ export const EventIntroductionSection = (): JSX.Element => {
                 <Button
                   type="button"
                   variant="ghost"
-                  className="h-auto rounded-none p-0 [font-family:'DM_Sans',Helvetica] text-sm font-semibold leading-normal text-[#fff7ea] hover:bg-transparent hover:text-[#fff7ea] focus-visible:ring-[#fff7ea]"
+                  className="h-auto rounded-none p-0 [font-family:'DM_Sans',Helvetica] text-base sm:text-lg lg:text-xl font-semibold leading-normal text-[#fff7ea] hover:bg-transparent hover:text-[#fff7ea] focus-visible:ring-[#fff7ea]"
                 >
-                  <a href="#what-were-building">VISION</a>
+                  <a target="_blank" href="https://loomi.bio/rainingman">EVENTS</a>
                 </Button>
               </li>
               <li>
                 <Button
                   type="button"
                   variant="ghost"
-                  className="h-auto rounded-none p-0 [font-family:'DM_Sans',Helvetica] text-sm font-semibold leading-normal text-[#fff7ea] hover:bg-transparent hover:text-[#fff7ea] focus-visible:ring-[#fff7ea]"
+                  className="h-auto rounded-none p-0 [font-family:'DM_Sans',Helvetica] text-base sm:text-lg lg:text-xl font-semibold leading-normal text-[#fff7ea] hover:bg-transparent hover:text-[#fff7ea] focus-visible:ring-[#fff7ea]"
                 >
                   <a target="_blank" href="https://burningman.org/about-us/10-principles/">PRINCIPLES</a>
                 </Button>
@@ -48,7 +48,7 @@ export const EventIntroductionSection = (): JSX.Element => {
                 <Button
                   type="button"
                   variant="ghost"
-                  className="h-auto rounded-none p-0 [font-family:'DM_Sans',Helvetica] text-sm font-semibold leading-normal text-[#fff7ea] hover:bg-transparent hover:text-[#fff7ea] focus-visible:ring-[#fff7ea]"
+                  className="h-auto rounded-none p-0 [font-family:'DM_Sans',Helvetica] text-base sm:text-lg lg:text-xl font-semibold leading-normal text-[#fff7ea] hover:bg-transparent hover:text-[#fff7ea] focus-visible:ring-[#fff7ea]"
                 >
                   <a href="#get-involved">JOIN</a>
                 </Button>
@@ -69,11 +69,10 @@ export const EventIntroductionSection = (): JSX.Element => {
             Vancouver Island inspired by Burning Man
             principles where we can <strong><em>actually</em></strong> burn.
           </p>
-          <Button
-            type="button"
-            className="h-auto rounded-md border border-solid border-[#2f241f] bg-[#d9a23a] px-8 py-4 [font-family:'DM_Sans',Helvetica] text-base font-bold leading-normal text-[#2f241f] hover:bg-[#d9a23a]/90 focus-visible:ring-[#fff7ea]"
-          >
-            <a href="#get-involved">Get Involved</a>
+          <Button asChild variant="cta" size="lg">
+            <a href="https://loomi.bio/rainingman" target="_blank" rel="noopener noreferrer">
+              Join a Live Session
+            </a>
           </Button>
         </div>
 
