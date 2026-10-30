@@ -35,21 +35,20 @@ export const EventVisionSection = (): JSX.Element => {
               <strong className="font-bold"> a festival. {" "}</strong>
             </p>
             <p className="m-0 w-full max-w-[1097px] [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
-              A “festival” is a product: attendees buy it and consume it, and organizers profit from it. Here, ticket prices  <strong>production costs only</strong>: nobody is making any money,
-              from the executive producers down to the "vendors" who make you coffee and huevos rancheros at 11am with 4 hours of sleep.
-              Everybody is a participant, and nobody is a consumer.
+              A “festival” is a product: attendees buy it and consume it, and organizers profit from it. Here, <strong>ticket prices only cover production costs</strong>: nobody is making any money,
+              from the executive producer all the way to the "vendor" who gifts you coffee and a breakfast wrap at 11am after 4 hours of sleep.
             </p>
-            <p className="m-0 w-full max-w-[1097px] [font-family:'DM_Sans',Helvetica] text-xl text-center font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
-              There are no sidelines. What will you bring? What is <em>your</em> gift?
+            <p className="m-0 w-full max-w-[1097px] [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
+              Everybody is a participant, and nobody is a consumer. There are no sidelines. What will you bring? What is <em>your</em> gift?
             </p>
-            {/* <div>
-              <p className="m-0 pt-8 w-full max-w-[1097px] text-center [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
-                "Rain or shine, it <i>will</i> be divine."
+            <div>
+              <p className="m-0 pt-4 w-full max-w-[1097px] text-center [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
+                "Rain or shine, it <strong>will</strong> be divine."
               </p>
               <p className="m-0 w-full max-w-[1097px] text-center [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
                 - Medusa
               </p>
-            </div> */}
+            </div>
           </div>
         </div>
         <h2 id="what-were-building" className="m-0 pb-10 text-center [font-family:'Fraunces',Helvetica] text-[40px] font-semibold leading-[1.1] tracking-[0] text-[#6b5a4f] sm:text-[48px] lg:text-[56px] lg:leading-[61.6px]">

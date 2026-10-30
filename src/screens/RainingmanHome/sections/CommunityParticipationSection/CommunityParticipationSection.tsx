@@ -20,7 +20,7 @@ const participationRows: ParticipationCard[][] = [
     {
       title: "Interested Party(goer)",
       description: [
-        "General expression of interest in the Raining Man 2026 concept. If this sounds cool to you, let us know 😎",
+        "General expression of interest in the Raining Man 2027 concept. If this sounds cool to you, let us know 😎",
         "We will use this list to estimate attendance numbers, keep ourselves motivated, and share updates such as:",
         "• Venue and Date Confirmation",
         "• Volunteer and Camp Applications",
