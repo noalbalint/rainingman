@@ -41,7 +41,7 @@ export const EventIntroductionSection = (): JSX.Element => {
                   variant="ghost"
                   className="h-auto rounded-none p-0 [font-family:'DM_Sans',Helvetica] text-base sm:text-lg lg:text-xl font-semibold leading-normal text-[#fff7ea] hover:bg-transparent hover:text-[#fff7ea] focus-visible:ring-[#fff7ea]"
                 >
-                  <a target="_blank" href="https://burningman.org/about-us/10-principles/">PRINCIPLES</a>
+                  <a target="_blank" href="https://burningman.org/about-us/10-principles/">THE 10 PRINCIPLES</a>
                 </Button>
               </li>
               <li>
