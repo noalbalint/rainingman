@@ -36,7 +36,7 @@ export const EventVisionSection = (): JSX.Element => {
             </p>
             <p className="m-0 w-full max-w-[1097px] [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
               A “festival” is a product: attendees buy it and consume it, and organizers profit from it. Here, <strong>ticket prices only cover production costs</strong>: nobody is making any money,
-              from the executive producer all the way to the "vendor" who gifts you coffee and a breakfast wrap at 11am after 4 hours of sleep.
+              from the executive producer all the way to the "vendor" who gifts you coffee and a breakfast wrap at 11am after six hours of sleep.
             </p>
             <p className="m-0 w-full max-w-[1097px] [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
               Everybody is a participant, and nobody is a consumer. There are no sidelines. What will you bring? What is <em>your</em> gift?
