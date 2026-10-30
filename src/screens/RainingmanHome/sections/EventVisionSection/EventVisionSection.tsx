@@ -17,7 +17,7 @@ export const EventVisionSection = (): JSX.Element => {
               As the popularity of Otherworld increased, tickets became harder to find, and Kindle Arts
               requested new associate events to relieve the over-demand.
             </p>
-            <p className="m-0 [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
+            <p className="m-0 [font-family:'DM_Sans',Helvetica] text-xl text-center font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
               Raining Man is our answer.
             </p>
             <p className="m-0 [font-family:'DM_Sans',Helvetica] text-xl font-normal leading-[1.7] tracking-[0] text-[#6b5a4f] lg:text-2xl lg:leading-[40.8px]">
