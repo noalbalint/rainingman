@@ -50,7 +50,7 @@ export const EventIntroductionSection = (): JSX.Element => {
                   variant="ghost"
                   className="h-auto rounded-none p-0 [font-family:'DM_Sans',Helvetica] text-base sm:text-lg lg:text-xl font-semibold leading-normal text-[#fff7ea] hover:bg-transparent hover:text-[#fff7ea] focus-visible:ring-[#fff7ea]"
                 >
-                  <a href="#get-involved">JOIN</a>
+                  <a href="#get-involved">UPDATES</a>
                 </Button>
               </li>
             </ul>
